@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+	<!-- CSS -->
+	<link href="http://veritetimeline.appspot.com/latest/timeline.css" rel="stylesheet">
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="http://veritetimeline.appspot.com/latest/jquery-min.js"></script>
+	<script type="text/javascript" src="http://veritetimeline.appspot.com/latest/timeline-min.js"></script>
+	<script>
+	$(document).ready(function() {
+		var timeline = new VMM.Timeline();
+		timeline.init("https://docs.google.com/spreadsheet/pub?key=0AlgdTR3JsXqydExEMVVKejhJSTItUlNjZkx1Y3RqTmc&output=html");			
+	});
+</script>
+</head>
+	<body>
+	<div id="timeline"></div>
+</body>
+</html>
+
