@@ -1,66 +1,36 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Timelinecv : TimelineCV" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Timelinecv</title>
-    <!-- CSS -->
-  <link href="http://veritetimeline.appspot.com/latest/timeline.css" rel="stylesheet">
-
-  <!-- JavaScript -->
-  <script type="text/javascript" src="http://veritetimeline.appspot.com/latest/jquery-min.js"></script>
-  <script type="text/javascript" src="http://veritetimeline.appspot.com/latest/timeline-min.js"></script>
-
-  <script>
-    $(document).ready(function() {
-      var timeline = new VMM.Timeline();
-      timeline.init("https://docs.google.com/spreadsheet/pub?key=0AlgdTR3JsXqydExEMVVKejhJSTItUlNjZkx1Y3RqTmc&output=html");      
-    });
-  </script>
-
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/fulgura/TimelineCV">Fork Me on GitHub</a>
-
-          <h1 id="project_title">Timelinecv</h1>
-          <h2 id="project_tagline">TimelineCV</h2>
-
-          <section id="downloads">
-            <a class="zip_download_link" href="https://github.com/fulgura/TimelineCV/zipball/master">Download this project as a .zip file</a>
-            <a class="tar_download_link" href="https://github.com/fulgura/TimelineCV/tarball/master">Download this project as a tar.gz file</a>
-          </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-
-
-      </section>
-    </div>
-
-        <div id="timeline"></div>
+    <head>
+        <meta charset="utf-8" />
+        <title>Timeline Portfolio | Tutorialzine Demo</title>
         
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Timelinecv maintained by <a href="https://github.com/fulgura">fulgura</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+        <!-- The default timeline stylesheet -->
+        <link rel="stylesheet" href="assets/css/timeline.css" />
+        <!-- Our customizations to the theme -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dancing+Script|Antic+Slab" />
+        
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
     
+    <body>
 
-  </body>
+		<!--<header>
+			<a href="http://tutorialzine.com/2012/04/timeline-portfolio/">Download on Tutorialzine</a>
+		</header>
+-->
+		<div id="timeline">
+			<!-- Timeline.js will genereate the markup here -->
+		</div>
+        
+        <!-- JavaScript includes - jQuery, turn.js and our own script.js -->
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="assets/js/timeline-min.js"></script>
+		<script src="assets/js/script.js"></script>
+
+    </body>
 </html>
